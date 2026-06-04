@@ -1,0 +1,22 @@
+# --- review-only artifacts: not published ---
+_MANIFEST.md
+
+# --- raw / intermediate artifacts: never commit ---
+raw_trades/
+*trade_log*
+*fills*
+param_search/
+*_intermediate.*
+*_draft_report.*
+/private/
+
+# --- account ---
+*GBM*
+*notional*
+*balance*
+
+# --- scratch ---
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
